@@ -1,5 +1,46 @@
 # Electronic-device-price-prediction
- The objective of this project is to develop a software application that can forecast the price of a product using data collected from a database and present it in a user interface. This example demonstrates
-how the application accurately predicts the price of a laptop based on it's features and market price.<br />
- The project consists in the following steps: loading the database; cleaning the data and extracting the desired information in a comprehensible format; split the data into an advantageous training/test ratio; use of multiple machine learning models on that data and selecting the best performing one; optimizing the results after model validation; exporting the model to a user interface; creating a web interface where users can choose desired device features and finally price prediction based on the input.<br />
- This project is entirely written in Python, utilizing the appropriate libraries and methods.
+
+## A program that can forecast the price of a product using data collected from a database and present it in a user interface.
+
+![Cover](./Cover.png)
+
+---
+
+## Description
+
+The entirety of this program is written in python and to showcase it I used a dataset from Kaggle which contains around 1300 laptops classified by their characteristics and price.<br>
+The following steps were taken to do this:<br>
+-processing the dataset and shaping it into an interpretable format as much as possible with Pandas and NumPy(in jupyter lab)<br>
+-after processing, the database is split into training data and testing data before various machine learning models are applied<br>
+-various machine learning algorithms were used and compared to determine which one can perform more accurately<br>
+-the performance was tested using R-squared (R²) and Mean Absolute Error (MAE) coefficients<br>
+-the model validity was examined by comparing the predicted values to actual values and by residual analysis<br>
+-finally the model is serialized and exported(with Pickle) into a user interface(using Streamlit), where the desired device characteristics can be
+selected by the user and the forecasting can be performed.
+
+---
+
+## Block Diagram
+
+Below is a block diagram illustrating the workflow of the project:
+
+![Block Diagram](./Diagram.png)
+
+---
+
+## Instructions
+
+Follow these simple steps to get started:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Streitferdt/Electronic-device-price-prediction.git
+   cd Electronic-device-price-prediction
+   
+2. **Install required python libraries:**
+   ```bash
+   pip install -r requirements.txt
+   
+3. **Run the app:**
+   ```bash
+   streamlit run app.py
