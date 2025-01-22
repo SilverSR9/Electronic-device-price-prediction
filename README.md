@@ -8,8 +8,8 @@
 
 ## Description
 
-The entirety of this program is written in python and to showcase it I used a dataset from Kaggle which contains around 1300 laptops classified by their characteristics and price.<br>
-The following steps were taken to do this:<br>
+ The entirety of this program is written in python and to showcase it I used a dataset from Kaggle which contains around 1300 laptops classified by their characteristics and price.<br>
+ The following steps were taken to do this:<br>
 -processing the dataset and shaping it into an interpretable format as much as possible with Pandas and NumPy(in jupyter lab)<br>
 -after processing, the database is split into training data and testing data before various machine learning models are applied<br>
 -various machine learning algorithms were used and compared to determine which one can perform more accurately<br>
