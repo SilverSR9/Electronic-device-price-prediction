@@ -2,7 +2,7 @@
 
 ## A program that can forecast the price of a product using data collected from a database and present it in a user interface.
 
-![Cover](./Cover.png)
+![Cover](assets/Cover.png)
 
 ---
 
@@ -24,7 +24,7 @@ selected by the user and the forecasting can be performed.
 
 Below is a block diagram illustrating the workflow of the project:
 
-![Block Diagram](./Diagram.png)
+![Block Diagram](assets/Diagram.png)
 
 ---
 
@@ -32,15 +32,10 @@ Below is a block diagram illustrating the workflow of the project:
 
 Follow these simple steps to get started:
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/Streitferdt/Electronic-device-price-prediction.git
-   cd Electronic-device-price-prediction
-   
-2. **Install required python libraries:**
+1. **Install required python libraries:**
    ```bash
    pip install -r requirements.txt
    
-3. **Run the app:**
+2. **Run the app:**
    ```bash
    streamlit run app.py
