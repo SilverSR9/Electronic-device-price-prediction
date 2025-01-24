@@ -11,11 +11,11 @@
 The entirety of this program is written in python and to showcase it I used a dataset from Kaggle which contains around 1300 laptops classified by their characteristics and price.<br>
 The following steps were taken to do this:<br>
 -processing the dataset and shaping it into an interpretable format as much as possible with Pandas and NumPy(in jupyter lab)<br>
--after processing, the database is split into training data and testing data before various machine learning models are applied<br>
+-after processing, the database was split into 85% training data and 15% testing data before various machine learning models were applied<br>
 -various machine learning algorithms were used and compared to determine which one can perform more accurately<br>
 -the performance was tested using R-squared (R²) and Mean Absolute Error (MAE) coefficients<br>
 -the model validity was examined by comparing the predicted values to actual values and by residual analysis<br>
--finally the model is serialized and exported(with Pickle) into a user interface(using Streamlit), where the desired device characteristics can be
+-finally the model was serialized and exported(with Pickle) into a user interface(using Streamlit), where the desired device characteristics can be
 selected by the user and the forecasting can be performed.
 
 ---
@@ -30,7 +30,7 @@ Below is a block diagram illustrating the workflow of the project:
 
 ## Instructions
 
-Follow these simple steps to get started:
+Requirements to run it:
 
 1. **Install required python libraries:**
    ```bash
